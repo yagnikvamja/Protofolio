@@ -1,0 +1,357 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+  background-color: #edf2f4;
+  /* background: rgb(79,131,171); */
+  /* background: linear-gradient(180deg, rgba(79,131,171,1) 26%, rgba(79,131,171,1) 35%, rgba(84,138,175,1) 39%, rgba(118,185,199,1) 65%); */
+}
+
+h1 {
+  font-size: 5.625rem; /*100%=16px=1em -- 90/16=5.625*/
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #ef233c;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #ef233c;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #ef233c;
+  text-anchor: start;
+}
+
+h4 {
+  color: #45a29e;
+}
+
+.abcdf {
+  border: solid;
+  width: 100%;
+  margin-top: 0;
+  backdrop-filter: blur(5px);
+}
+
+hr {
+  border: dotted #725c5c 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px 50%;
+}
+
+.top-container {
+  /* background-color: aquamarine; */
+  height: auto;
+  background-color: #0b0c10;
+  /* background-image: url("https://www.pexels.com/photo/1631677/download/") ; */
+  /* background-image: url("WhatsApp\ Image\ 2023-07-03\ at\ 10.45.12\ AM.jpeg") ; */
+  /* background-image: url("photo_2023-07-05_23-41-03.jpg") ; */
+  background-image: url("IMG_20230706_132417.jpg") ;
+  background-size: cover;
+  padding-bottom: 10rem;
+}
+
+.name {
+  color: aliceblue;
+  font-size: 100px;
+  padding: 70px 0 0 150px;
+}
+
+p {
+  width: 400px;
+  /* font-size: 1.2rem; */
+  line-height: 1.5;
+  /* font-size: 2.5rem; */
+  color: #2b2d42;
+  transition: 0.5s;
+  padding: 10px;
+  margin: 0;
+  font-family: "Belanosima", sans-serif;
+}
+
+.hovername:hover {
+  /* color: black; */
+  color: #2b2d42;
+  transform: translate(10px);
+}
+
+#second {
+  color: #9C9C9C;
+  /* color: #D2D1CC;  */
+  /* cursor:cell */
+}
+#hey {
+  /* color: #1D6695; */
+  color: #9C9C9C;
+}
+#first {
+  /* color: #1D6695; */
+  color: #9C9C9C;
+}
+
+#navbar {
+  /* background-color: #333;  */
+  /* backdrop-filter: blur(5px); */
+  margin-top: 8px;
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  /* top: 0px;
+    width: 1333px; */
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  /* font-size: larger; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: block;
+  color: #ef233c;
+  text-align: center;
+  padding: 15px;
+  text-decoration: double;
+}
+
+/* #navbar a:hover {
+    background-color: black;
+    color: orange;
+  } */
+
+#navbar img {
+  width: 40px;
+  border-radius: 100%;
+  float: right;
+  text-align: center;
+  padding: 10px 10px 10px 0;
+}
+/* .About{
+    width: 200px;
+    
+} */
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #2b2d42;
+  padding: 50px 0 20px;
+}
+
+.profile {
+  border: 1px solid black;
+  box-shadow: 5px 5px #888888;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  transition: 2s;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px gray;
+  /* opacity: 0.8; */
+}
+
+.profile:hover {
+  transform: skew(500px);
+}
+
+.yv-image {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #edf2f4;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d90429;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 150px auto;
+  text-align: left;
+  border-image-width: 25%;
+}
+
+.comp-images {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-images {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 500px;
+}
+
+.code-skill-description {
+  clear: left;
+}
+
+.chilli-skill-description {
+  clear: right;
+}
+
+#Qualifications {
+  font-size: 20px;
+  padding-bottom: 40px;
+  color: #2b2d42;
+  width: 50%;
+  position: relative;
+  left: 10%;
+  transition: 1s;
+}
+#Qualifications.hover{
+    transform: rotate(180deg);
+}
+#QualificationsRow {
+  margin-top: 50px;
+}
+#QualificationsRow div.col-lg-offset-1 {
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px gray;
+}
+#Qualifications table {
+  width: 100%;
+  margin-top: 50px;
+}
+#Qualifications table tr td {
+  padding-bottom: 20px;
+}
+#Qualifications table tr td:first-child {
+  width: 30%;
+  padding-left: 10px;
+}
+
+.container-fluid:hover{
+    transform:translate(20px);
+}
+
+
+/* skills */
+#Skills {
+  font-size: 20px;
+  padding-bottom: 40px;
+  color: #2b2d42;
+  width: 50%;
+  position: relative;
+  left: 45%;
+  transition: 2s;
+}
+#SkillsRow {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+#SkillsRow div.col-lg-offset-5 {
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px gray;
+  opacity: 0.8;
+}
+#Skills table {
+  width: 100%;
+  margin-top: 50px;
+}
+#Skills table tr td {
+  padding-bottom: 20px;
+}
+#Skills table tr td:first-child {
+  width: 30%;
+  padding-left: 10px;
+}
+
+#skills.hover{
+    transform:translate(10px)
+}
+
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 40px;
+}
+
+.copyright {
+  color: #edf2f4;
+  font-size: 0.75rem;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #d90429;
+  background-image: -webkit-linear-gradient(top, #d90429, #2b2d42);
+  background-image: -moz-linear-gradient(top, #d90429, #2b2d42);
+  background-image: -ms-linear-gradient(top, #d90429, #2b2d42);
+  background-image: -o-linear-gradient(top, #d90429, #2b2d42);
+  background-image: linear-gradient(to bottom, #d90429, #2b2d42);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2b2d42;
+  color: #edf2f4;
+  background-image: -webkit-linear-gradient(top, #2b2d42, #d90429);
+  background-image: -moz-linear-gradient(top, #2b2d42, #d90429);
+  background-image: -ms-linear-gradient(top, #2b2d42, #d90429);
+  background-image: -o-linear-gradient(top, #2b2d42, #d90429);
+  background-image: linear-gradient(to bottom, #2b2d42, #d90429);
+  text-decoration: none;
+}
+
+
+.parl{
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  background-attachment: fixed;
+}
+
+.p1{
+  background-image: url("https://c0.wallpaperflare.com/preview/534/41/125/school-books-young-adult-education.jpg");
+}
+.p2{
+  background-image: url("https://e0.pxfuel.com/wallpapers/865/18/desktop-wallpaper-future-of-work-in-the-digital-economy-developing-skills-for-industry-4.jpg");
+}
